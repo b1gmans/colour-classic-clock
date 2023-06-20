@@ -1,0 +1,51 @@
+COLOUR CLASSICS CLOCK
+==============================
+
+Software Upgrade Installation
+-----------------------------
+1. Rename the .bin file to "firmware.bin" and copy to a Micro SD card.
+2. Remove any "firmware.bak" file from the Micro SD card. (This is created from a previous software upgrade)
+3. Insert the Micro SD card into the Colour Classic Clock's card reader slot and power on.
+4. The CCC will install the new firmware.  On completion the file on the SD card will be renamed to "firmware.bak" to prevent the
+installation from repeating. The CCC will reboot. Check the new version number is displayed on the startup screen.
+
+Note.  If the file "firmware.bak" already exists, the rename operation will fail and the CCC will
+cycle around repeatedly installing the firmware.   To solve this issue, remove the "firmware.bak" file from the SD card.
+
+
+=================================================================================================================================
+
+RELEASE HISTORY
+===============
+
+Release v1.04 20/06/2023
+------------------------
+1. Wi-fi SSID Name max lenght increased from 20 to 40 characters.  Note. You only need to apply this upgrade if you have a wi-fi SSID
+   name that is greater than 20 characters.
+
+
+Release v1.03 11/04/2023
+------------------------
+1. Wifi connection, if it fails, then carry on, only attempt re-connection every 15 mins, and no reboot if cannot re-connect
+2. Temp offset range increased to  -20 to +20
+3. Pressing the "+" button will skip to the next display item before it's time is up.
+
+Release v1.02 25/03/2023
+------------------------
+1. New Temperature offset prarameter so you can adjust the temperature by -10 to +10 degrees
+2. New Hourly Chime Feature - can be switched off and on like an alarm.  Will play a shorter version of any selected tune
+3. Both above new settings are maintained within the set-up menu.
+
+Release v1.01 24/03/2023
+------------------------
+1. Intial config display on startup now shows current time, day of week and date. (For a newly built clock these will be incorrect, until
+   connected to wi-fi intially and the clock gets the cuttent date and time from the internet.  This takes approximately 1 minute from 
+   connecting to the internet).
+2. Holding down the "Adv" button on the clock at boot up time, or as the initial config display screens are presented will keep the config      screens displayed. Releasing the "Adv" button, the config displays will remain for a futher 5 seconds, before resuming the start-up
+   process. This is useful if I ask you for startup config information when investigating issues.
+
+Release v1.00 02/03/2023
+------------------------
+1. Initial Commercial Release
+
+
