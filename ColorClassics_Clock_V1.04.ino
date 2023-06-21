@@ -33,8 +33,6 @@ const char versionno[] = "V1.04";
 #include <WiFi.h>
 #include "Wire.h"
 #include <NTPClient.h>
-//#define WIFI_SSID "BTWholeHome-N7S"  // just for testing until I add these as params
-//#define WIFI_PASS "6MgLQhEReRGw"
 TFT_eSPI tft = TFT_eSPI();
 #include <ArduinoJson.h>
 File root;
